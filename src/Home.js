@@ -1,13 +1,51 @@
 import { NavLink } from 'react-router-dom';
+import Card from './Card';
+
+// import json
+
+[
+  {
+    title : 'test',
+    des : 'test',
+    image : 'dshjdj'
+  },
+  {
+    title : 'test',
+    des : 'test',
+    image : 'dshjdj'
+  },
+  {
+    title : 'test',
+    des : 'test',
+    image : 'dshjdj'
+  },
+  {
+    title : 'test',
+    des : 'test',
+    image : 'dshjdj'
+  },
+  {
+    title : 'test',
+    des : 'test',
+    image : 'dshjdj'
+  },
+  
+]
 function Home() {
-    return (
-      <div>
-        <h1>Home Page</h1>
-        <br/>
-      <NavLink to="/about">About</NavLink> <NavLink to="/contact">Contact</NavLink>
+  return (
+    <div>
+      <div className='d-flex'>
+
+      // loop
+
+        <Card title="..." desc=".." image="..." /> 
+        
+      /end loop/
+      
       </div>
-    );
-  }
-  
+    </div>
+  );
+}
+
+
 export default Home;
-  
