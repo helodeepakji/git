@@ -1,0 +1,11 @@
+.card_design{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card_design .card{
+    background-color: rgb(228, 182, 81);
+    text-align: center;
+}
